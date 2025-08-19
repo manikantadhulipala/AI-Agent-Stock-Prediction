@@ -63,21 +63,24 @@
   <h1>AI Agent Stock Prediction System</h1>
   <p>
     <strong>GitHub Repository:</strong> 
-    <a href="https://github.com/manikantadhulipala/AI-Agent-Stock-Prediction/blob/chandu-sprint2/src/Backtesting/backtest_ml_strategy.py" target="_blank" rel="noopener noreferrer">
-      Code Contribution (backtest_ml_strategy.py)
+    <a href="https://github.com/manikantadhulipala/AI-Agent-Stock-Prediction" target="_blank" rel="noopener noreferrer">
+      Project Repository
     </a><br>
-    <strong>Commits/PR History:</strong> 
-    <a href="https://github.com/Rivier-Computer-Science/AI-Agent-Stock-Prediction/pulls?q=is%3Apr+author%3Amanikantadhulipala+is%3Aclosed" target="_blank" rel="noopener noreferrer">
-      GitHub PRs
+    <strong>Commit/PR History:</strong> 
+    <a href="https://github.com/Rivier-Computer-Science/AI-Agent-Stock-Prediction/commits?author=manikantadhulipala" target="_blank" rel="noopener noreferrer">
+      My Commits
     </a>
   </p>
 
-
   <h2>Overview</h2>
   <p>
-    This project implements an Automated Machine Learning-Based Strategy Generation and Optimization system for algorithmic trading. 
-    It integrates Deep Q-Networks (DQN) and Genetic Algorithms (GA) with a backtesting framework that supports multi-asset strategy execution. 
-    I contributed across all development sprints from building ML models to testing, interpretability, visualization, export features, and logging.
+    This project implements an automated stock trading system that generates and optimizes strategies using 
+    Deep Q-Networks (DQN) and Genetic Algorithms (GA). It includes a backtesting engine, interpretability 
+    features, a Streamlit-based UI, and export/reporting functionality. 
+    <br><br>
+    <strong>My Contribution:</strong> I worked on machine learning strategy development, data preprocessing, 
+    integration into the backtesting engine, interpretability modules, visualization/UI, export features, 
+    error handling, and testing.
   </p>
 
   <h2>Project Sprints Summary</h2>
@@ -92,140 +95,89 @@
     <tbody>
       <tr>
         <td>Sprint 1</td>
-        <td>Minimal Viable Product with ML strategy generation</td>
-        <td>Built DQN & GA strategies, data preprocessing, validation</td>
+        <td>Minimal Viable Product – ML strategy generation</td>
+        <td>Developed DQN & GA strategy generators, preprocessing, validation</td>
       </tr>
       <tr>
         <td>Sprint 2</td>
-        <td>Integrate strategies into backtest engine, interpretability</td>
-        <td>Integrated ML outputs, created decision tree & ruleset outputs</td>
+        <td>Integration & Interpretability</td>
+        <td>Integrated ML signals, built decision tree and ruleset outputs</td>
       </tr>
       <tr>
         <td>Sprint 3</td>
-        <td>Streamlit UI, strategy export, error handling</td>
-        <td>Built UI, visualizations, PDF/Script export, error logs</td>
+        <td>Visualization, Export, Error Handling</td>
+        <td>Developed Streamlit UI, PDF/Script export, logging, exception handling</td>
       </tr>
       <tr>
         <td>Sprint 4</td>
-        <td>Testing, validation, QA</td>
-        <td>Unit/integration testing, benchmarking, documentation</td>
+        <td>Testing & QA</td>
+        <td>Unit/integration tests, benchmarking, documentation</td>
       </tr>
     </tbody>
   </table>
 
-  <hr />
-
-  <h2>My Responsibilities</h2>
+  <h2>User Stories & Tasks (Summary)</h2>
   <ul>
-    <li>Developed Deep Q-Network (DQN) agent for trading strategy learning.</li>
-    <li>Implemented Genetic Algorithm (GA) for evolving rule-based strategies.</li>
-    <li>Created preprocessing pipeline for multi-asset compatibility, normalization, and data validation.</li>
-    <li>Integrated ML-generated signals into the backtesting engine.</li>
-    <li>Extracted interpretable strategy representations: decision trees (DQN) and rule sets with stability metrics (GA).</li>
-    <li>Built an interactive Streamlit UI with performance metrics, equity curves, signal overlays, and convergence plots.</li>
-    <li>Implemented strategy export as Python scripts and auto-generated PDF reports.</li>
-    <li>Added robust error handling and logging for model and execution issues.</li>
-    <li>Wrote unit tests and integration tests covering all components and edge scenarios.</li>
+    <li><strong>US614:</strong> Automated ML-based trading strategies with backtesting (DQN + GA).</li>
+    <li><strong>Task 1:</strong> DQN Strategy Generator (my contribution).</li>
+    <li><strong>Task 2:</strong> GA Strategy Generator (my contribution).</li>
+    <li><strong>Task 3:</strong> Data Preprocessing & Validation (my contribution).</li>
+    <li><strong>Task 4:</strong> Integration into backtest engine (my contribution).</li>
+    <li><strong>Task 5:</strong> Interpretability (decision trees, rulesets) (my contribution).</li>
+    <li><strong>Task 6:</strong> Visualization, UI, Export (my contribution).</li>
+    <li><strong>Task 7:</strong> Testing and validation (my contribution).</li>
+    <li><strong>Other tasks:</strong> Infrastructure setup, deployment, and performance scaling.</li>
   </ul>
 
-  <hr />
-
-  <h2>Sprint Breakdown</h2>
-
-  <h3>Sprint 1: Minimal Viable Product</h3>
-  <h4>Appendix – User Story: US614</h4>
- 
-  <p>As a trader, I want an automated system integrated into a backtesting framework that generates and optimizes trading strategies using Deep Q-Networks (DQN) and Genetic Algorithms (GA).</p>
-
-  <strong>Conditions of Satisfiability:</strong>
+  <h2>My Key Contributions</h2>
   <ul>
-    <li>Input validation: tickers, date ranges, model selection, and objectives</li>
-    <li>Strategy generation using DQN and GA</li>
-    <li>Multi-asset support</li>
-    <li>Performance metrics: Sharpe ratio, annualized return, equity curve</li>
-    <li>Interpretability: DQN → decision trees, GA → rule sets with stability metrics</li>
-    <li>Visualization and export functionality</li>
-    <li>Robust error handling with user feedback</li>
+    <li>Developed DQN and GA agents for strategy learning and optimization.</li>
+    <li>Designed preprocessing pipeline for multi-asset compatibility and validation.</li>
+    <li>Integrated ML-generated signals into the backtesting framework.</li>
+    <li>Implemented interpretable outputs (decision trees, rulesets with stability metrics).</li>
+    <li>Built Streamlit UI with performance charts, overlays, and training visualizations.</li>
+    <li>Added export features (Python scripts, auto-generated PDF reports).</li>
+    <li>Implemented logging, error handling, and warnings for edge cases.</li>
+    <li>Wrote unit tests and integration tests for reliability.</li>
   </ul>
 
-  <strong>Tasks:</strong>
-  <ul>
-    <li>DQN Strategy Generator (8h)</li>
-    <li>GA Strategy Generator (8h)</li>
-    <li>Data Preprocessing (4h)</li>
-    <li>Validation with Synthetic Data (2h)</li>
-  </ul>
-
-  <h3>Sprint 2: Strategy Integration and Interpretability</h3>
-  <strong>Key Contributions:</strong>
-  <ul>
-    <li>Integrated ML signals into the backtesting engine</li>
-    <li>Enabled multi-asset synchronous trading logic</li>
-    <li>Converted DQN output into decision trees</li>
-    <li>Derived rule sets and stability metrics from GA</li>
-    <li>Validated interpretability through case studies</li>
-  </ul>
-
-  <h3>Sprint 3: Visualization, Export, and Error Handling Enhancements</h3>
-  <strong>Key Contributions:</strong>
-  <ul>
-    <li>Developed Streamlit UI with dynamic charts and overlays</li>
-    <li>Added training progress visualizations (DQN reward, GA fitness)</li>
-    <li>Enabled export of Python scripts and PDF reports (ReportLab)</li>
-    <li>Built UI warning system for overfitting, missing data, and convergence issues</li>
-    <li>Implemented backend logging and exception tracking</li>
-  </ul>
-
-  <h3>Sprint 4: Testing, Validation, and QA</h3>
-  <strong>Tasks:</strong>
-  <ul>
-    <li>Unit testing of DQN, GA, backtesting, preprocessing, export modules (6h)</li>
-    <li>Integration testing with edge cases: missing data, market crashes, overfitting (4h)</li>
-    <li>Output validation against known benchmarks and consistency checks (4h)</li>
-  </ul>
-
-  <hr />
-
-  <h2>Commit History</h2>
+  <h2>Commit History (Sample)</h2>
   <table>
     <thead>
       <tr>
         <th>Date</th>
         <th>Commit Hash</th>
         <th>Description</th>
-        <th>Tasks</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>2025-06-25</td>
         <td><code>da190a5</code></td>
-        <td>Task 1: ML Strategy Framework, Task 2: Backtest Integration, Task 3: Interpretability Module</td>
-        <td>1, 2, 3</td>
+        <td>Initial ML strategy framework (DQN & GA) + backtest integration</td>
       </tr>
       <tr>
         <td>2025-07-08</td>
         <td><code>aac9f54</code></td>
-        <td>Task 4: Visualization, Task 5: Export, Task 6: Error Handling</td>
-        <td>4, 5, 6</td>
+        <td>Visualization, export features, error handling improvements</td>
       </tr>
       <tr>
         <td>2025-08-06</td>
         <td><code>6d7e6bc</code></td>
-        <td>Task 7: Testing and Validation</td>
-        <td>7</td>
+        <td>Testing, validation, and QA fixes</td>
       </tr>
     </tbody>
   </table>
 
-  <hr />
-
   <h2>Screenshots</h2>
-  <img src="image1.jpg" alt="">
-  <img src="image2.jpg" alt="">
-  <img src="image3.jpg" alt="">
+ 
+  <img src="image1.jpg" alt="Streamlit UI - Dashboard">
+  <img src="image2.jpg" alt="Backtesting Results">
+  <img src="image3.jpg" alt="Strategy Interpretability Output">
 
-  <hr />
+  
+
+
 
   <footer>
     <p><strong>Portfolio prepared by:</strong> Chandu Srinivasa Manikanta Dhulipala</p>
